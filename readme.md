@@ -117,7 +117,7 @@ query {
 }
 ```
 
-### getPostComments
+### getComments
 
 - Description: Retrieves the comments associated with a post.
 - Arguments:
@@ -153,7 +153,7 @@ query {
 }
 ```
 
-### getPostLikes
+### getLikes
 
 - Description: Retrieves the likes associated with a post.
 - Arguments:
