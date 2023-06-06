@@ -9,7 +9,7 @@
   - `id` (ID): The unique identifier for the user.
   - `username` (String): The username of the user.
   - `email` (String): The email address of the user.
-  - `createdAt` (String): The created at of the post.
+  - `createdAt` (String): The created at of the user.
 
 ### Post
 
@@ -64,7 +64,7 @@ query {
             }
           }
         }
-        user {
+        author {
           data {
             id
             attributes {
@@ -94,15 +94,7 @@ query {
       attributes {
         title
         content
-        thumbnail {
-          data {
-            id
-            attributes {
-              url
-            }
-          }
-        }
-        user {
+        author {
           data {
             id
             attributes {
